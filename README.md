@@ -1,6 +1,6 @@
 
 # Aplikasi Point of Sale (POS) dengan Python dan MySQL
-
+<img src="capture/capture.PNG">
 Aplikasi Point of Sale (POS) ini adalah sistem yang dikembangkan dengan menggunakan bahasa pemrograman Python dan database MySQL. Aplikasi ini memungkinkan pengguna untuk mengelola produk, melakukan transaksi, dan mencetak nota transaksi dalam format PDF.
 
 ## Fitur
@@ -24,7 +24,8 @@ Aplikasi Point of Sale (POS) ini adalah sistem yang dikembangkan dengan mengguna
 3. Pastikan Anda memiliki MySQL Server terinstal. Anda dapat menggunakan [MySQL Community Edition](https://dev.mysql.com/downloads/mysql/) atau [XAMPP](https://www.apachefriends.org/index.html) untuk mengelola database.
 
 4. Buat sebuah database MySQL untuk aplikasi POS dan sesuaikan pengaturan koneksi database pada file kode aplikasi.
-'''
+
+```
 CREATE DATABASE posdb;
 USE posdb;
 
@@ -41,9 +42,8 @@ CREATE TABLE transactions (
     quantity INT,
     total_amount DECIMAL(10, 2)
 );
-'''
 5. Jalankan aplikasi dengan menjalankan file `main.py`.
-
+```
 ## Penggunaan
 
 1. Pilih opsi menu yang sesuai:
